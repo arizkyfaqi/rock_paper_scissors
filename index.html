@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ROCK PAPER SCISSORS</title>
+    
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="main">
+                <div class="heading">
+                    <a href="#"><</a>
+                    <img src="./assets/logo.png" alt="">
+                    <h4>ROCK PAPER SCISSORS</h4>
+                </div>
+                <div class="contents">
+                    <div class="content">
+                        <h4>PLAYER 1</h4>
+                        <div class="content-icon" onclick="changebg('bgbatu')" id="bgbatu">
+                            <a href="#" id="batu" value="batu">
+                                <img src="./assets/batu.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content-icon" onclick="changebg('bgkertas')" id="bgkertas">
+                            <a href="#" id="kertas" value="kertas">
+                                <img src="./assets/kertas.png " alt="">
+                            </a>
+                        </div>
+                        <div class="content-icon" onclick="changebg('bggunting')" id="bggunting">
+                            <a href="#" id="gunting" value="gunting">
+                                <img src="./assets/gunting.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-vs">
+                        <div class="result-wrapper">
+                            <h1 class="vs" id="vstxt">VS</h1>
+                        <div class="result" id="win" >
+                            <h3>PLAYER 1</h3>
+                            <h3>WIN!</h3>
+                        </div>
+                        <div class="result" id="com-win" >
+                            <h3>COMPUTER</h3>
+                            <h3>WIN!</h3>
+                        </div>
+                        <div class="result draw" id="draw" style="background-color: #035B0C !important;" >
+                            <!-- <h3>It's a</h3> -->
+                            <h3>DRAW!</h3>
+                        </div>
+                        </div> 
+                        <a href="#" class="reset" id="reset" onclick="location.reload();">
+                            <img src="./assets/refresh.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h4>COMP</h4>
+                        <div class="content-icon" id="bgcom-batu">
+                            <a href="#" id="batu">
+                                <img src="./assets/batu.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content-icon" id="bgcom-kertas">
+                            <a href="#" id="kertas">
+                                <img src="./assets/kertas.png " alt="">
+                            </a>
+                        </div>
+                        <div class="content-icon" id="bgcom-gunting">
+                            <a href="#" id="gunting">
+                                <img src="./assets/gunting.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

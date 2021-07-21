@@ -1,0 +1,21 @@
+Guideline OOP Challenge Chapter 4
+
+1. Jelaskan pengertiannya!
+2. Jelaskan di bagian mana hal-hal dibawah ini diimplentasikan pada kode anda! (kosongkan jika tidak diimplementasikan)
+
+class: Result menampung hasil dari game mengang kalah atau seri dan menampilkan nya dengan method whowin
+object:
+method: whowin menampilkan hasil game dan merubanh tampilan pada layar
+
+constructor: di jalankan saat pertama kali object di panggil, disini constractor menyimpan proprty win lose draw
+properties: adalah data dari object, pada res(Result) terdapat proprty win lose draw
+
+encapsulation:
+abstraction:
+inheritance:
+polymorphism:
+
+visibility modifier:
+
+note: masih ada bug pada tampilan, saat sudah keluar hasil permainan dan coba untuk main lagi tanpa klik tombol refresh.
+Background tombol pada tampilan sebelumnya masih tetap tampil.
